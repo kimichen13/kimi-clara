@@ -1,24 +1,15 @@
 import * as React from "react"
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Header from "../components/header";
-import Anniversary from "./anniversary";
-import AboutPage from "./about";
-import Home from "./home";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
     return (
-        <Router>
-            <Header/>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/anniversary" element={<Anniversary/>}/>
-                <Route path="/about" element={<AboutPage/>}/>
-            </Routes>
-        </Router>
+        <Layout>
+            <h2>Welcome to Home</h2>
+            <p>This is the Home page of our application.</p>
+        </Layout>
     );
 };
 
 export const Head = () => <title>Kimi & Clara</title>;
-
 
 export default IndexPage;

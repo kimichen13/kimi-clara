@@ -1,8 +1,11 @@
 import * as React from 'react';
+import Layout from "../components/Layout";
 
 const AboutPage = () => {
     return (
-        <div>About us. Kimi & Clara</div>
+        <Layout>
+            <div>About us. Kimi & Clara</div>
+        </Layout>
     );
 };
 
