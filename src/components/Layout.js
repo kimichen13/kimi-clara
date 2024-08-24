@@ -1,16 +1,18 @@
-import React from "react"
-import Header from "./Header";
+import React from 'react';
+import Header from './Header';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
-        <div className={"bg-home"}>
-            <Header/>
-            <main className={"mt-20"}>
-                <div className={"container"}>{children}</div>
-            </main>
-            {/* Include your Footer component here if you have one */}
+        <div className="min-h-screen bg-gray-100">
+            <Header />
+            <main className="container mx-auto py-8">{children}</main>
+            <footer className="bg-gray-800 text-white py-4">
+                <div className="container mx-auto text-center">
+                    &copy; {new Date().getFullYear()} Our Memories. All rights reserved.
+                </div>
+            </footer>
         </div>
-    )
-}
+    );
+};
 
-export default Layout
+export default Layout;

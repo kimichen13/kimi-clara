@@ -1,34 +1,37 @@
-import * as React from 'react';
-import AnniversaryCountdown from "../components/AnniversaryCountdown";
-import {graphql, useStaticQuery} from "gatsby";
-import Layout from "../components/Layout";
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import AnniversaryCountdown from '../components/AnniversaryCountdown';
 
-const Anniversary = () => {
-    const {allAnniversaryJson} = useStaticQuery(graphql`
-query AllAnniversaryQuery {
-  allAnniversaryJson {
-    nodes {
-      id
-      name
-      title
-      date
-    }
-  }
-}
-  `);
+const AnniversaryPage = ({ data }) => {
+    const anniversaries = data.allAnniversaryJson.nodes;
 
-    return <Layout>
-        {allAnniversaryJson.nodes.map(anniversary =>
-            <AnniversaryCountdown
-                key={anniversary.name}
-                title={anniversary.title}
-                name={anniversary.name}
-                date={anniversary.date}
-            />)}
-    </Layout>;
+    return (
+        <Layout>
+            <h1 className="text-4xl font-bold mb-8">Anniversaries</h1>
+            {anniversaries.map((anniversary) => (
+                <AnniversaryCountdown
+                    key={anniversary.id}
+                    title={anniversary.title}
+                    name={anniversary.name}
+                    date={anniversary.date}
+                />
+            ))}
+        </Layout>
+    );
 };
 
-export const Head = () => <title>Anniversary</title>;
+export const query = graphql`
+  query {
+    allAnniversaryJson {
+      nodes {
+        id
+        title
+        name
+        date
+      }
+    }
+  }
+`;
 
-
-export default Anniversary;
+export default AnniversaryPage;

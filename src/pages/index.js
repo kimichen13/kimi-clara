@@ -1,15 +1,15 @@
-import * as React from "react"
+import React from "react";
 import Layout from "../components/Layout";
 
 const IndexPage = () => {
     return (
         <Layout>
-            <h2>Welcome to Home</h2>
-            <p>This is the Home page of our application.</p>
+            <h1 className="text-4xl font-bold mb-4">Welcome to Our Memories</h1>
+            <p className="text-lg">
+                Relive our cherished moments, travels, and milestones together.
+            </p>
         </Layout>
     );
 };
-
-export const Head = () => <title>Kimi & Clara</title>;
 
 export default IndexPage;
