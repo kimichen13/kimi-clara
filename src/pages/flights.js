@@ -1,34 +1,33 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import FlightHistory from '../components/FlightHistory';
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import FlightTimeline from "../components/FlightTimeline";
 
 const FlightsPage = ({ data }) => {
     const flights = data.allFlightHistoryJson.nodes;
 
     return (
         <Layout>
-            <FlightHistory flights={flights} />
+            <FlightTimeline flights={flights} />
         </Layout>
     );
 };
 
 export const query = graphql`
-  query {
-    allFlightHistoryJson {
-      nodes {
-        date
-        airline
-        flightNumber
-        departureAirport
-        departureTime
-        arrivalAirport
-        arrivalTime
-        distance
-        ticketNumber
-      }
+    query {
+        allFlightHistoryJson {
+            nodes {
+                date
+                airline
+                flightNumber
+                departureAirport
+                departureTime
+                arrivalAirport
+                arrivalTime
+                distance
+            }
+        }
     }
-  }
 `;
 
 export default FlightsPage;

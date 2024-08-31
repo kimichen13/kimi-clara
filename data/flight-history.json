@@ -3,176 +3,160 @@
     "date": "2024-05-14",
     "airline": "5J",
     "flightNumber": "678",
-    "departureAirport": "null",
+    "departureAirport": "MNL",
     "departureTime": "20:10",
-    "arrivalAirport": "null",
+    "arrivalAirport": "PVG",
     "arrivalTime": "00:05",
-    "distance": "1853",
-    "ticketNumber": "--"
+    "distance": "1853"
   },
   {
     "date": "2024-05-14",
     "airline": "5J",
     "flightNumber": "910",
-    "departureAirport": null,
+    "departureAirport": "MNL",
     "departureTime": "14:25",
-    "arrivalAirport": null,
+    "arrivalAirport": "MPH",
     "arrivalTime": "15:35",
-    "distance": "304",
-    "ticketNumber": "--"
+    "distance": "304"
   },
   {
     "date": "2024-05-10",
     "airline": "5J",
     "flightNumber": "899",
-    "departureAirport": null,
+    "departureAirport": "MPH",
     "departureTime": "08:40",
-    "arrivalAirport": null,
+    "arrivalAirport": "MNL",
     "arrivalTime": "09:50",
-    "distance": "304",
-    "ticketNumber": "--"
+    "distance": "304"
   },
   {
     "date": "2024-05-10",
     "airline": "5J",
     "flightNumber": "679",
-    "departureAirport": null,
+    "departureAirport": "PVG",
     "departureTime": "01:35",
-    "arrivalAirport": null,
+    "arrivalAirport": "MNL",
     "arrivalTime": "05:25",
-    "distance": "1853",
-    "ticketNumber": "--"
+    "distance": "1853"
   },
   {
     "date": "2024-05-10",
     "airline": "5J",
     "flightNumber": "679",
-    "departureAirport": null,
+    "departureAirport": "DXB",
     "departureTime": "01:35",
-    "arrivalAirport": null,
+    "arrivalAirport": "MNL",
     "arrivalTime": "05:25",
-    "distance": "1853", 
-    "ticketNumber": "2030140645887"
+    "distance": "1853"
   },
   {
     "date": "2024-04-21",
     "airline": "MU",
     "flightNumber": "9206",
-    "departureAirport": null,
+    "departureAirport": "PVG",
     "departureTime": "19:15",
-    "arrivalAirport": null,
+    "arrivalAirport": "HGH",
     "arrivalTime": "20:25",
-    "distance": "418",
-    "ticketNumber": "7812234235934"
+    "distance": "418"
   },
   {
     "date": "2024-04-19",
-    "airline": "FM", 
+    "airline": "FM",
     "flightNumber": "9527",
-    "departureAirport": null,
+    "departureAirport": "PVG",
     "departureTime": "18:00",
-    "arrivalAirport": null,
+    "arrivalAirport": "HGH",
     "arrivalTime": "19:20",
-    "distance": "418",
-    "ticketNumber": "7812234235948"
+    "distance": "418"
   },
   {
     "date": "2024-02-02",
     "airline": "MU",
     "flightNumber": "5367",
-    "departureAirport": null,
+    "departureAirport": "PVG",
     "departureTime": "21:40",
-    "arrivalAirport": null, 
+    "arrivalAirport": "CTU",
     "arrivalTime": "23:45",
-    "distance": "964",
-    "ticketNumber": "7812469929971"
+    "distance": "964"
   },
   {
-    "date": "2023-12-11", 
+    "date": "2023-12-11",
     "airline": "CA",
     "flightNumber": "806",
-    "departureAirport": null,
+    "departureAirport": "PEK",
     "departureTime": "01:40",
-    "arrivalAirport": null,
+    "arrivalAirport": "FRA",
     "arrivalTime": "07:00",
-    "distance": "2875",
-    "ticketNumber": "9992435911116"
+    "distance": "2875"
   },
   {
     "date": "2023-12-06",
-    "airline": "CA", 
+    "airline": "CA",
     "flightNumber": "805",
-    "departureAirport": null,
+    "departureAirport": "FRA",
     "departureTime": "21:20",
-    "arrivalAirport": null,
+    "arrivalAirport": "PEK",
     "arrivalTime": "00:40",
-    "distance": "2900",
-    "ticketNumber": "9992435911116"
+    "distance": "2900"
   },
   {
     "date": "2023-10-08",
     "airline": "MU",
-    "flightNumber": "8542", 
-    "departureAirport": null,
+    "flightNumber": "8542",
+    "departureAirport": "PVG",
     "departureTime": "11:05",
-    "arrivalAirport": null,
+    "arrivalAirport": "CTU",
     "arrivalTime": "12:50",
-    "distance": "964",
-    "ticketNumber": "7812462184272"
+    "distance": "964"
   },
   {
     "date": "2023-09-26",
     "airline": "FM",
     "flightNumber": "9429",
-    "departureAirport": null,
-    "departureTime": "11:45", 
-    "arrivalAirport": null,
+    "departureAirport": "PVG",
+    "departureTime": "11:45",
+    "arrivalAirport": "XMN",
     "arrivalTime": "13:50",
-    "distance": "1182",
-    "ticketNumber": "7819391181773"
+    "distance": "1182"
   },
   {
     "date": "2023-04-25",
     "airline": "EK",
     "flightNumber": "304",
-    "departureAirport": null,
+    "departureAirport": "DXB",
     "departureTime": "09:35",
-    "arrivalAirport": null,
-    "arrivalTime": "22:20", 
-    "distance": "6445",
-    "ticketNumber": "1764875055971" 
+    "arrivalAirport": "PVG",
+    "arrivalTime": "22:20",
+    "distance": "6445"
   },
   {
     "date": "2023-04-24",
     "airline": "EK",
     "flightNumber": "122",
-    "departureAirport": null,
+    "departureAirport": "DXB",
     "departureTime": "19:25",
-    "arrivalAirport": null,
+    "arrivalAirport": "LGW",
     "arrivalTime": "00:55",
-    "distance": "2994",
-    "ticketNumber": "1764875055971"
-  },
-  {
-    "date": "2023-04-12", 
-    "airline": "EK",
-    "flightNumber": "121",
-    "departureAirport": null, 
-    "departureTime": "14:20",
-    "arrivalAirport": null,
-    "arrivalTime": "17:55",
-    "distance": "2994",
-    "ticketNumber": "1764875055971"
+    "distance": "2994"
   },
   {
     "date": "2023-04-12",
-    "airline": "EK", 
+    "airline": "EK",
+    "flightNumber": "121",
+    "departureAirport": "LGW",
+    "departureTime": "14:20",
+    "arrivalAirport": "DXB",
+    "arrivalTime": "17:55",
+    "distance": "2994"
+  },
+  {
+    "date": "2023-04-12",
+    "airline": "EK",
     "flightNumber": "303",
-    "departureAirport": null,
+    "departureAirport": "PVG",
     "departureTime": "00:05",
-    "arrivalAirport": null,
+    "arrivalAirport": "DXB",
     "arrivalTime": "05:35",
-    "distance": "6455",
-    "ticketNumber": "1764875055971"
+    "distance": "6455"
   }
 ]
