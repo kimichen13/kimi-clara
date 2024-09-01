@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const Header = () => {
     return (
-        <header className="bg-indigo-600 text-white py-6">
+        <header className="bg-home text-white py-6">
             <div className="container mx-auto flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-3">
                     <StaticImage
@@ -28,8 +28,8 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/flights" className="hover:text-indigo-200">
-                                Flights
+                            <Link to="/timeline" className="hover:text-indigo-200">
+                                Timeline
                             </Link>
                         </li>
                         <li>

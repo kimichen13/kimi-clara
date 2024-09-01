@@ -34,4 +34,6 @@ export const query = graphql`
   }
 `;
 
+export const Head = () => <title>Anniversary</title>;
+
 export default AnniversaryPage;

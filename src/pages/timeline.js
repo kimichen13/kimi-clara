@@ -1,14 +1,19 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import FlightTimeline from "../components/FlightTimeline";
+import Timeline from "../components/Timeline";
 
-const FlightsPage = ({ data }) => {
+const TimelinePage = ({ data }) => {
     const flights = data.allFlightHistoryJson.nodes;
 
     return (
         <Layout>
-            <FlightTimeline flights={flights} />
+            <div className="bg-gray-100 min-h-screen py-12">
+                <h1 className="text-3xl font-bold text-center mb-8">
+                    My Love Life Timeline
+                </h1>
+                <Timeline flights={flights} />
+            </div>
         </Layout>
     );
 };
@@ -30,4 +35,6 @@ export const query = graphql`
     }
 `;
 
-export default FlightsPage;
+export const Head = () => <title>Timeline</title>;
+
+export default TimelinePage;

@@ -9,6 +9,6 @@ const AboutPage = () => {
     );
 };
 
-export const Head = () => <title>About me.</title>;
+export const Head = () => <title>About us</title>;
 
 export default AboutPage;

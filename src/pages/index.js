@@ -12,4 +12,6 @@ const IndexPage = () => {
     );
 };
 
+export const Head = () => <title>Kimi & Clara</title>;
+
 export default IndexPage;
